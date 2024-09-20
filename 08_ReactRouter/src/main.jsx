@@ -13,6 +13,7 @@ import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, {githubInfoLoader} from "./components/Github/Github.jsx";
+import Weather from "./components/Weather/Weather.jsx";
 
 //making of router
 //1st Method --> ek method ke ander array
@@ -46,6 +47,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="weather" element={<Weather />} />
       <Route path="user/:userid" element={<User />} />
       <Route 
       loader = {githubInfoLoader}
