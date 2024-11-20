@@ -3,7 +3,14 @@
 
 2. ReactDOM -> react implementation for creating Website frontend
 
+3. createRoot creates DOM like structure , then it compares the main DOM and created DOM and so it just repaints the updated part of the UI unlike browser
+
+4. before react , browser used to repaints the entire DOM or UI , its not the same case for reactDOM
+
 
 #Counter App
 1. Learned about useState hook 
     -> It propogates the changes in state to all over the UI(means DOM)
+
+
+#Learned about Props
