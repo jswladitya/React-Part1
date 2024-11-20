@@ -19,6 +19,7 @@ function App() {
     <Card username = "aditya" btnText = "Click me"/>
     <Card username="jaiswal" btnText = "Visit me" />
     {/* since har card apne app me alag information lega toh unka intazam hota he props se */}
+    {/* yaha props daalne se changes show nahi honge, we have to handle that props in the the Card Component */}
     </>
   )
 }

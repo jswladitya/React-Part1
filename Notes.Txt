@@ -13,4 +13,8 @@
     -> It propogates the changes in state to all over the UI(means DOM)
 
 
-#Learned about Props
+#Learned about Props 
+    -> it make the component reusable 
+
+
+#Background Color Changer
