@@ -1,0 +1,6 @@
+#Introduction
+1. Functional Components (jsx file) should be made capital
+
+2. ReactDOM -> react implementation for creating Website frontend
+
+3. 
