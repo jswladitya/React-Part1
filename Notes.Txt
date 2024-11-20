@@ -3,4 +3,7 @@
 
 2. ReactDOM -> react implementation for creating Website frontend
 
-3. 
+
+#Counter App
+1. Learned about useState hook 
+    -> It propogates the changes in state to all over the UI(means DOM)
