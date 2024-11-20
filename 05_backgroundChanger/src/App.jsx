@@ -3,10 +3,16 @@ import { useState } from "react";
 function App() {
   const [color, setColor] = useState("olive");
   // we added olive color as default
-  /* yaha already double curly braces me tha islie color ko varaiable me inject nahi kia */
+  /* yaha already double curly braces me tha islie toh variablr ko directly inject kar sakt he, its a syntax */
+
   //button ke ander jo function he wo setColor is function ko hi call kar raha he coz onClick expect a function itself jo ki dusre kaam kare
+  
+  // counter wala bhi sahi hi tha, waha koi parameter paass karne ki zarurat nhi pad rahi thi , since yaha zarurat he parameter pass karne ki islie use this syntax
+
+  //onclick ko chahiye function , function se jo return aa raha he wo nahi chahiye use
+  //refernce dena bhi function dena hi he use call kardena means function jo return kar raha he wo pass kardena , that we dont want
   return (
-    <>
+
       <div
         className="w-full h-screen duration-200"
         // to implement states ek curly braces ke ander ek aur curly braces
@@ -30,7 +36,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    
   );
 }
 

@@ -18,3 +18,4 @@
 
 
 #Background Color Changer
+    -> learned more about onClick method , means if we need to pass parameter then use call back syntax , if not then just pass the reference to it 
