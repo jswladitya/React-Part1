@@ -6,7 +6,7 @@ function App() {
   const [numberAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setcharAllowed] = useState(false);
   const [password, setpassword] = useState("");
-  //since password wale input field me data aa rah he ab ham isme directly ja kar toh change nahi karne wale islie uska ka state banana padega
+  //since password wale input field me data aa rah he ab ham isme directly ja kar toh change nahi karne wale islie uska ka state banana padega, page load hote hi data aa ja rahahe 
 
   // 1. making a simple password generator using usecallback(fn, dependencies in an array) hook
   //coz, passwordGenerator bana toh lenge but problem is ki usse number aur chacterter tick pe baar baar call karna padega
@@ -38,6 +38,8 @@ function App() {
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select(); //just to highlight copied text
+    // passwordRef.current?.setSelectionRange(0,3);
+
 
     // how to copy in clipboard
     window.navigator.clipboard.writeText(password);
