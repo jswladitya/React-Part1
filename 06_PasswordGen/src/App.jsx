@@ -25,7 +25,8 @@ function App() {
   }, [length, numberAllowed, charAllowed, setpassword]);
 
   //hamne password generate toh karwa lia ab use call kaise kare so lets learn about useEffect hook its like useCallback
-  //useEffect ko variable me store karane ki zarurat nahi
+  //useEffect ko variable me store karane ki zarurat nahi , jab bhi page load hota he ye automatically call hota he 
+  //usecallback bas memorize or memoize or cache karleta , and useEffect dependencies me kuch bhi change toh uska code wapas run hota he
   //dependencies kam ye he ki ager unhe ched de toh useEffect ko fir se call kardo
   useEffect(() => {
     passwordGenerator();

@@ -6,8 +6,6 @@ function useCurrencyinfo(currency) {
     //ye hook return karega currency ka data
     //example usd daalenge to usd  
     //we want ki jab ye hook load hoga ya jab ye hook use me ayega me tab us API ko call karu
-    //so aisa useEffect hook he ki me use invoke kar sakta hu jab bhi koi component mount ya unmount hoto
-    //ise automatically fetch call ho jayega is function ke ander function call nahi karna padega
     //it simply means ki ab function call ho gya he to ab sedha fetch call kardo
 
 
@@ -26,7 +24,7 @@ function useCurrencyinfo(currency) {
     
     //hamne yaha depencency array ke ander currency ko dala he it means ki jab bhi currency ke ander change ho tab tab me api call karana chahta hu
     
-    console.log(data);
+    // console.log(data);
     return data
 }
 

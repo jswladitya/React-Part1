@@ -58,4 +58,3 @@ function InputBox({
 }
 
 export default InputBox;
-//ek nayi file banake uska naam dedo index.js , matlab ki jitne bhi components he ham unko yaha late he aur yaha se export karte he
