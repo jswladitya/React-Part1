@@ -33,3 +33,7 @@
     3. useRef hook
     4. useId hook
     5. creating own hook
+
+#Webpage with routing using react-router implementation
+    1. react-router-dom -> link, navlink
+    2. loader (useLoaderData)
