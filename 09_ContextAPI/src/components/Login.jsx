@@ -19,7 +19,7 @@ function Login() {
       <h2>Login</h2>
       <input
         type="text"
-        value={username} //is input ka value he wo govern hoga username is variable se ab jab is fiels me jab change to wo state bhi toh update honi chahiye
+        value={username}
         onChange={(e) => setUsername(e.target.value)}
         placeholder="username"
       />

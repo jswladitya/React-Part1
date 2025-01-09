@@ -16,3 +16,7 @@ function App() {
 }
 
 export default App
+
+// 1. made user context , then userContextProvider
+// 2. made components 
+// 3. in app.jsx, wrapped the components
