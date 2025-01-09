@@ -16,9 +16,8 @@ function useCurrencyinfo(currency) {
         .then((res) => res.json())
         .then((res) => setData(res[currency]))
 
-        // .then( (res) => ) // now ab ham data ko hold kaha krenge uske lie we will use useState
         //ye jo json format me data aye he usse me square alga ke data extract karunga
-        //means data toh bulk me aya he islie me usme inr daalunga taki inr ka data aye
+        //means data ayega of "Dates" ; {} , "Currency" : {} , we want ki sirf currency aye
         
     }, [currency])
     
